@@ -1,4 +1,5 @@
-from distutils.core import setup
+from setuptools import setup
+
 setup(
   name = 'aicampxyz',         # How you named your package folder (MyLib)
   packages = ['aicampxyz'],   # Chose the same as "name"
@@ -8,7 +9,6 @@ setup(
   author = 'Connor Johnson',                   # Type in your name
   author_email = 'cmj70@duke.edu',      # Type in your E-Mail
   url = 'https://github.com/wendulem/aicampxyz',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/wendulem/aicampxyz/archive/refs/tags/v_01.tar.gz',    # I explain this later on
   keywords = ['EDUCATION', 'INTERNAL'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'colorama',
